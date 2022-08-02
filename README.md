@@ -6,7 +6,7 @@
 More detailed instructions and more mods can be found in the [ChilloutVR Modding Group Discord](https://discord.gg/dndGPM3bxu).
 
 # Mod List
-- [SeatExitController](#chairexistcontroller)
+- [SeatExitController](#seatexitcontroller)
 
 # SeatExitController
 Prevents you from falling out of seats accidentally.
