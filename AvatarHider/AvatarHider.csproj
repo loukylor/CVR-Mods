@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>AvatarHider</AssemblyName>
+		<RootNamespace>AvatarHider</RootNamespace>
+		<TargetFramework>net4.7.2</TargetFramework>
+	</PropertyGroup>
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Copy SourceFiles="$(OutDir)AvatarHider.dll" DestinationFolder="$(CVRPath)Mods" />
+	</Target>
+
+	<ItemGroup>
+	  <Reference Include="0Harmony">
+	    <HintPath>E:\SteamLibrary\steamapps\common\ChilloutVR\MelonLoader\0Harmony.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.AudioModule">
+	    <HintPath>$(CVRPath)ChilloutVR_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
