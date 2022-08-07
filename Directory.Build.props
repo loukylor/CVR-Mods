@@ -1,0 +1,17 @@
+﻿<Project>
+	<PropertyGroup>
+		<CVRPath>E:\SteamLibrary\steamapps\common\ChilloutVR\</CVRPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>$(CVRPath)ChilloutVR_Data\Managed\Assembly-CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="MelonLoader">
+			<HintPath>$(CVRPath)MelonLoader\MelonLoader.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>$(CVRPath)ChilloutVR_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+</Project>
